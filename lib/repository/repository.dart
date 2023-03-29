@@ -1,7 +1,9 @@
 import 'dart:convert' as convert;
-import 'package:open_api_xml_parser/src/model/ev.dart';
+
 import 'package:http/http.dart' as http;
 import 'package:xml2json/xml2json.dart';
+
+import 'model.dart';
 
 class EvRepository {
   // api key

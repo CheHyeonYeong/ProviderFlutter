@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'ev.dart';
-import 'ev_repository.dart';
+import 'model.dart';
+import 'repository.dart';
 
 class EvProvider extends ChangeNotifier {
   // EvRepository를 접근(데이터를 받아와야 하기 때문에)

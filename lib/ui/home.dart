@@ -7,8 +7,8 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: ListWidget(),
+    return const Scaffold(
+      body: ListWidget(), //다른 위젯을 통해 UI를 꾸밀 수 있음음
     );
   }
 }

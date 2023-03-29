@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import 'ev_provider.dart';
+import 'provider.dart';
 import 'home.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,6 @@ class MyApp extends StatelessWidget {
         ),
         // MultiProvider를 통해 여러가지 Provider를 관리
         home: MultiProvider(
-
             // ChangeNotifierProvider 통해 변화에 대해 구독
             providers: [
               ChangeNotifierProvider(
